@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/europe-map.avif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.contaner {
+    position: relative;
+    display: grid;
+    justify-items: stretch;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: baseline;
+}
+
+.list_client_NL {
+
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    border-collapse: separate;
+    opacity: .66;
+}
+
+td {
+    border: 1px solid rgb(70, 69, 69);
+}
+
+#addNewClient {
+    position: absolute;
+    bottom: 2px;
+}
