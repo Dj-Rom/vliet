@@ -49,10 +49,10 @@ export const baseClientNL = [
     passwordToDoor: "1578",
   },
   {
-    name: "Linsen",
-    adress: "unknow",
-    gps: "unknow",
-    gpsCode: "unknow",
+    name: "Linssen Kwekerij BV",
+    adress: "De Horstweg 151, Venlo",
+    gps: "https://goo.gl/maps/ASFXaN4hk4Cwvu2h7",
+    gpsCode: "51.36150, 6.10483",
     passwordToDoor: "5926",
   },
   {
@@ -63,10 +63,10 @@ export const baseClientNL = [
     passwordToDoor: "4725",
   },
   {
-    name: "Gerja",
-    adress: "unknow",
-    gps: "unknow",
-    gpsCode: "unknow",
+    name: "Gerja Helden",
+    adress: "Dekeshorst 25, Helden",
+    gps: "https://goo.gl/maps/tdV1SwaFkiAihHFV8",
+    gpsCode: "51.34316, 6.01207",
     passwordToDoor: "#2555",
   },
   {
@@ -144,6 +144,13 @@ export const baseClientNL = [
     adress: "Poederoijen",
     gps: "https://goo.gl/maps/m61wNh8C84H2mnDT8",
     gpsCode: "51.79410729690693, 5.081173350936307",
+    passwordToDoor: "unknow",
+  },
+  {
+    name: "VHC  Nieuwaal",
+    adress: "Middelkampseweg 34 A, Nieuwaal",
+    gps: "https://goo.gl/maps/5STcy7KwPNymmUGq7",
+    gpsCode: "51.80225, 5.16956",
     passwordToDoor: "unknow",
   },
   {
