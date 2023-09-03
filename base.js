@@ -56,10 +56,10 @@ export const baseClientNL = [
     passwordToDoor: "5926",
   },
   {
-    name: "Fleura",
-    adress: "unknow",
-    gps: "unknow",
-    gpsCode: "unknow",
+    name: "FleuraMetz",
+    adress: "Betula 31, De Kwakel",
+    gps: "https://goo.gl/maps/xoXQzomdsbDzK8iH8",
+    gpsCode: "52.25358002156123, 4.7862041990999264",
     passwordToDoor: "4725",
   },
   {
@@ -71,9 +71,9 @@ export const baseClientNL = [
   },
   {
     name: "Adomex",
-    adress: "Aalsmeer",
-    gps: "unknow",
-    gpsCode: "unknow",
+    adress: "Legmeerdijk 313, Aalsmeer",
+    gps: "https://goo.gl/maps/K11oE13yKgZ1eHyw8",
+    gpsCode: "52.25803617675968, 4.783670923096349",
     passwordToDoor: "45622#",
   },
   {
