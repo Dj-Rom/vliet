@@ -25,7 +25,7 @@ img {
 .contaner {
    position: relative;
     display: grid;
-    justify-items: stretch;
+    justify-items: center;
     align-content: space-around;
     justify-content: space-evenly;
     width: 100%;
