@@ -23,8 +23,8 @@ img {
 .contaner {
     position: relative;
     display: grid;
-    justify-items: center;
-    align-content: space-around;
+    justify-items: stretch;
+    align-content: space-around;  
     justify-content: space-evenly;
     width: 100%;
     align-items: baseline;
