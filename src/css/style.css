@@ -49,3 +49,8 @@ td {
     position: absolute;
     bottom: 2px;
 }
+@media only screen and (max-width: 500px) {
+    * {
+      font-size: 8px;
+    }
+  }
