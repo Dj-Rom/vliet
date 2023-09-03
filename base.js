@@ -77,10 +77,10 @@ export const baseClientNL = [
     passwordToDoor: "45622#",
   },
   {
-    name: "Vliet",
-    adress: "Aalsmeer",
-    gps: "unknow",
-    gpsCode: "unknow",
+    name: "J. van VLIET",
+    adress: "Cotoneaster 45, 1424 LB De Kwakel",
+    gps: "https://goo.gl/maps/WNmzvoce4UDdHBXc6",
+    gpsCode: "52.25432686046064, 4.793290741657133",
     passwordToDoor: "1428",
   },
   {
