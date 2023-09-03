@@ -23,10 +23,10 @@ img {
     max-width: 155px;
 }
 .contaner {
-    position: relative;
+   position: relative;
     display: grid;
     justify-items: stretch;
-    align-content: space-around;  
+    align-content: space-around;
     justify-content: space-evenly;
     width: 100%;
     align-items: baseline;
