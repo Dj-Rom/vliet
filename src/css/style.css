@@ -1,6 +1,5 @@
 * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -36,7 +35,8 @@ html {
    position: relative;
     display: -ms-grid;
     display: grid;
-    justify-items: center;
+    -ms-grid-column-align: center;
+        justify-items: center;
     -ms-flex-line-pack: distribute;
         align-content: space-around;
     -webkit-box-pack: space-evenly;
