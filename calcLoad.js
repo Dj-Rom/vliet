@@ -1,25 +1,31 @@
 export function createLabel(text) {
     const tagLabel = document.createElement('label');
     tagLabel.innerHTML = text
+
     return tagLabel
 }
-export function addNewCont(key, val) {
+export function addNewCont(key, val, obj) {
     val.value = key
-    console.log(key);
+
+    localStorage.setItem('calcVliet', JSON.stringify(obj))
 }
 
 
 export function resetCont() {
 
-    loadedIntoTrailer = {
+    const loadedIntoTrailer = {
         'KK': 0,
-        'SH-KK': 0,
+        'SH_KK': 0,
         'TAG': 0,
         'CC': 0,
         'NC': 0,
-        'SH-CC': 0,
+        'SH_CC': 0,
+        "PALLETS": 0,
     }
+    localStorage.setItem('calcVliet', JSON.stringify(loadedIntoTrailer))
     location.reload()
+
+
 }
 
 export let loadedIntoTrailer = {
@@ -31,5 +37,6 @@ export let loadedIntoTrailer = {
     'SH_CC': 0,
     "PALLETS": 0,
 }
+!localStorage.calcVliet ? localStorage.setItem('calcVliet', JSON.stringify(loadedIntoTrailer)) : ''
 
 
