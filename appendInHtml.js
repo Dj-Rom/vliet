@@ -1,5 +1,5 @@
 import { createLabel } from './calcLoad.js'
-import { tag_5Input, tag_5Add, tag_5, cc, ccInput, ccAdd, nc, ncInput, ncAdd, shKk, shKkInput, shKkAdd, shCc, shCcInput, shCcAdd, palletInput, pallet, palletAdd, reset } from './viewLoad.js';
+import { tag_5Input, tag_5Add, tag_5, cc, ccInput, ccAdd, nc, ncInput, ncAdd, shKk, shKkInput, shKkAdd, kk, kkInput, kkAdd, shCc, shCcInput, shCcAdd, palletInput, pallet, palletAdd, reset } from './viewLoad.js';
 
 const contenerCalk = document.querySelector(".contener");
 const br = document.createElement('BR');
@@ -10,6 +10,23 @@ const _kk = document.createElement('div');
 const _pallets = document.createElement('div');
 const _shkk = document.createElement('div');
 const _shcc = document.createElement('div');
+
+
+
+
+contenerCalk.append(createLabel("KK"))
+_kk.append(br)
+_kk.appendChild(kk)
+_kk.appendChild(kkInput)
+_kk.appendChild(kkAdd)
+contenerCalk.appendChild(_kk)
+
+contenerCalk.append(createLabel("SH_KK"))
+_shkk.append(br)
+_shkk.appendChild(shKk)
+_shkk.appendChild(shKkInput)
+_shkk.appendChild(shKkAdd)
+contenerCalk.appendChild(_shkk)
 
 contenerCalk.append(createLabel("TAG-5"))
 _tag.append(br)
@@ -32,15 +49,6 @@ _nc.appendChild(nc)
 _nc.appendChild(ncInput)
 _nc.appendChild(ncAdd)
 contenerCalk.appendChild(_nc)
-
-
-contenerCalk.append(createLabel("SH_KK"))
-_shkk.append(br)
-_shkk.appendChild(shKk)
-_shkk.appendChild(shKkInput)
-_shkk.appendChild(shKkAdd)
-contenerCalk.appendChild(_shkk)
-
 
 contenerCalk.append(createLabel("SH_CC"))
 _shcc.append(br)
