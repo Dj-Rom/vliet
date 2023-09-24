@@ -58,8 +58,8 @@ export const baseClientNL = [
   {
     name: "FleuraMetz",
     adress: "Betula 31, De Kwakel",
-    gps: "https://goo.gl/maps/xoXQzomdsbDzK8iH8",
-    gpsCode: "52.25358002156123, 4.7862041990999264",
+    gps: "https://maps.app.goo.gl/WwZot39aCVZaNuTb6",
+    gpsCode: "52.253058528619704, 4.787467811104535",
     passwordToDoor: "4725",
   },
   {
@@ -173,5 +173,12 @@ export const baseClientNL = [
     gps: "https://goo.gl/maps/x6D89o7PBv1dn3yH9",
     gpsCode: "52.26258528974014, 4.7770472591101",
     passwordToDoor: "unknow",
+  },
+  {
+    name: "Bremen Germany",
+    adress: "Paul-Feller-Straße 25,  Bremen",
+    gps: "https://maps.app.goo.gl/yftJUqqxCqBqp99Y9",
+    gpsCode: "53.056459,8.795506",
+    passwordToDoor: "3552",
   },
 ];
