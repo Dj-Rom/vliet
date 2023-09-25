@@ -19,7 +19,10 @@ html {
     align-items: stretch;
     justify-items: center;
 }
-
+.resetBtn, .MBtn {
+    
+    width: 100%
+}
 
 button,
 input {
