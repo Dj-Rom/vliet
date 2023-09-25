@@ -181,4 +181,11 @@ export const baseClientNL = [
     gpsCode: "53.056459,8.795506",
     passwordToDoor: "3552",
   },
+    {
+    name: "Nieuwkoop Europe BV",
+    adress: "Hoofdweg 111, De Kwakel",
+    gps: "https://maps.app.goo.gl/kdxATQmW2RoUTtFcA",
+    gpsCode: "52.22886142877308, 4.749624999999999",
+    passwordToDoor: "no",
+  },
 ];
