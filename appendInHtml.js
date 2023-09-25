@@ -10,6 +10,10 @@ const _kk = document.createElement('div');
 const _pallets = document.createElement('div');
 const _shkk = document.createElement('div');
 const _shcc = document.createElement('div');
+const btnBack = document.createElement('button');
+btnBack.className = "btnBack, MBtn"
+btnBack.onclick = () => { document.location = './index.html' }
+btnBack.innerHTML = "back"
 
 
 
@@ -68,3 +72,6 @@ contenerCalk.appendChild(_pallets)
 
 _pallets.append(br)
 contenerCalk.append(reset)
+
+
+contenerCalk.append(btnBack)
