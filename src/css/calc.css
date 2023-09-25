@@ -9,6 +9,7 @@
 html {
     background: url("./img/europe-map.avif") no-repeat, center;
     background-size: cover;
+        height: 100%;
 }
 
 .contener {
