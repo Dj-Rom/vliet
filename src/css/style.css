@@ -46,10 +46,10 @@ html {
 }
 
 .btnBack {
-   
+      margin: 15px auto;
     text-align: center;
+    width: -webkit-fill-available;
     font-size: 35px;
-
 }
 
 td {
