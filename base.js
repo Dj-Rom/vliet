@@ -84,7 +84,7 @@ export const baseClientNL = [
     passwordToDoor: "1428",
   },
   {
-    name: "Kuehne + Nagel Shiphol",
+    name: "Kuehne + Nagel Schiphol",
     adress: "Airbuslaan 2-5,  Schiphol",
     gps: "https://goo.gl/maps/o3ynVyNtpznENWdo8",
     gpsCode: "52.2891368227341, 4.773019530593184",
