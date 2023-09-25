@@ -1,52 +1,39 @@
 * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 11px;
+    font-family: 'Roboto Slab', serif;
+
 }
+
 html {
     background: url("./img/europe-map.avif") no-repeat, center;
     background-size: cover;
-
 }
+
+
 
 .logo {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
+
 .contaner {
-   position: relative;
-    display: -ms-grid;
+    position: relative;
     display: grid;
-    -ms-grid-column-align: center;
-        justify-items: center;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-items: stretch;
+    align-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
+    align-items: baseline;
 }
 
 .list_client_NL {
@@ -58,22 +45,31 @@ html {
     opacity: .66;
 }
 
+.btnBack {
+    position: absolute;
+    bottom: 4px;
+    width: 95%;
+    text-align: center;
+    font-size: 35px;
+
+}
+
 td {
-    height: 27px;
-    width: 25%;
     border: 1px solid rgb(70, 69, 69);
 }
+
 
 #addNewClient {
     position: absolute;
     bottom: 2px;
 }
+
 @media only screen and (max-width: 500px) {
     * {
-      font-size: 8px;
+        font-size: 8px;
     }
+
     img {
-    max-width: 155px;
+        max-width: 35px;
     }
-  }
-      
+}
