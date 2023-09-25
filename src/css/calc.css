@@ -12,6 +12,7 @@ html {
 }
 
 .contener {
+    position: relative;
     display: grid;
     align-content: stretch;
     justify-content: space-evenly;
@@ -19,9 +20,6 @@ html {
     justify-items: center;
 }
 
-.resetBtn {
-    width: 95%;
-}
 
 button,
 input {
