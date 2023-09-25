@@ -18,11 +18,11 @@ html {
 .logo {
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: baseline;
 
 }
 
