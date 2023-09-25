@@ -46,9 +46,7 @@ html {
 }
 
 .btnBack {
-    position: absolute;
-    bottom: 4px;
-    width: 95%;
+   
     text-align: center;
     font-size: 35px;
 
