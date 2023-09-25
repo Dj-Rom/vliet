@@ -4,7 +4,10 @@
     font-family: 'Roboto Slab', serif;
      margin-top: 10px;
 }
-
+html {
+    background: url("./img/europe-map.avif") no-repeat, center;
+    background-size: cover;
+}
 .contener {
     display: flex;
     flex-direction: column;
