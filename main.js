@@ -27,6 +27,6 @@ function createHtmlTable(base) {
     newTableAlTR.appendChild(tdGps);
     newTableAlTR.appendChild(tdPass);
     tableForListClient.appendChild(newTableAlTR);
-    tableForListClient.append(btnBack)
+    tableForListClient.appendChild(btnBack)
   }
 }
