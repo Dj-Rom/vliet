@@ -8,14 +8,18 @@ btnBack.innerHTML = "back"
 import { baseClientNL } from "./base.js";
 createHtmlTable(baseClientNL);
 
+
 function createHtmlTable(base) {
   for (let i = 0; i < base.length; i++) {
-    let newTableAlTR = document.createElement("tr");
-    let tdName = document.createElement("td");
-    let tdAdress = document.createElement("td");
-    let tdGps = document.createElement("td");
-    let aTdGps = document.createElement("a");
-    let tdPass = document.createElement("td");
+    const newTableAlTR = document.createElement("tr");
+    const tdName = document.createElement("td");
+    const tdAdress = document.createElement("td");
+    const tdGps = document.createElement("td");
+
+    const aTdGps = document.createElement("a");
+    aTdGps.className = "gpsText";
+    const tdPass = document.createElement("td");
+
     tdName.innerHTML = base[i].name;
     tdAdress.innerHTML = base[i].adress;
     aTdGps.innerHTML = base[i].gpsCode;

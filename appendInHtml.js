@@ -1,5 +1,5 @@
 import { createLabel } from './calcLoad.js'
-import { tag_5Input, tag_5Add, tag_5, cc, ccInput, ccAdd, nc, ncInput, ncAdd, shKk, shKkInput, shKkAdd, kk, kkInput, kkAdd, shCc, shCcInput, shCcAdd, palletInput, pallet, palletAdd, reset } from './viewLoad.js';
+import { tag_5Input, tag_5Add, tag_5, cc, ccInput, ccAdd, nc, ncInput, ncAdd, shKk, shKkInput, shKkAdd, kk, kkInput, kkAdd, ext, extInput, extAdd, shCc, shCcInput, shCcAdd, palletInput, pallet, palletAdd, reset } from './viewLoad.js';
 
 const contenerCalk = document.querySelector(".contener");
 const br = document.createElement('BR');
@@ -10,6 +10,7 @@ const _kk = document.createElement('div');
 const _pallets = document.createElement('div');
 const _shkk = document.createElement('div');
 const _shcc = document.createElement('div');
+const _ext = document.createElement('div');
 const btnBack = document.createElement('button');
 btnBack.className = "btnBack, MBtn"
 btnBack.onclick = () => { document.location = './index.html' }
@@ -61,6 +62,13 @@ _shcc.appendChild(shCcInput)
 _shcc.appendChild(shCcAdd)
 contenerCalk.appendChild(_shcc)
 
+
+contenerCalk.append(createLabel("EXTENSION"))
+_ext.append(br)
+_ext.appendChild(ext)
+_ext.appendChild(extInput)
+_ext.appendChild(extAdd)
+contenerCalk.appendChild(_ext)
 
 contenerCalk.append(createLabel("PALLETS"))
 _pallets.append(br)
