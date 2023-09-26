@@ -119,13 +119,6 @@ export const baseClientNL = [
     passwordToDoor: "unknow",
   },
   {
-    name: "Jupiter 159 Wematrans",
-    adress: "Jupiter159, Honselersdijk",
-    gps: "https://goo.gl/maps/REfVDh47wfppGW5W8",
-    gpsCode: "51.99483 4.23572",
-    passwordToDoor: "unknow",
-  },
-  {
     name: "Mans Flowers",
     adress: "Liesveldsesteeg 28, Brakel",
     gps: "https://goo.gl/maps/DQEgx54HpjRJu2AMA",
