@@ -1,5 +1,5 @@
 import { createLabel, addNewCont, resetCont, } from './calcLoad.js'
-const loadedIntoTrailer = JSON.parse(localStorage.getItem('calcVliet'))
+const loadedIntoTrailer = JSON.parse(localStorage.getItem('calcVlietV2'))
 console.log((loadedIntoTrailer));
 export const tag_5 = document.createElement("button");
 tag_5.id = "tag_5"
@@ -105,6 +105,7 @@ export const extInput = document.createElement("input")
 extInput.id = "extInput"
 extInput.readOnly = "readonly"
 extInput.value = loadedIntoTrailer.EXTENSION
+console.log(loadedIntoTrailer.EXTENSION);
 export const extAdd = document.createElement("button");
 extAdd.id = "extAdd"
 extAdd.onclick = () => { if (loadedIntoTrailer.EXTENSION >= 0) { addNewCont(++loadedIntoTrailer.EXTENSION, extInput, loadedIntoTrailer) } }
